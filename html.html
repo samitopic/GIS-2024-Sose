@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <title>Lernfortschritts-Tracker</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Lernfortschritts-Tracker</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#lernziele">Lernziele setzen</a></li>
+            <li><a href="#lernmaterial">Lernmaterial auswählen</a></li>
+            <li><a href="#fortschritt">Fortschritt überwachen</a></li>
+            
+        </ul>
+    </nav>
+    <main>
+        <section id="lernziele">
+            <h2>Lernziele setzen</h2>
+            <form>
+                <label for="ziel">Mein Lernziel:</label>
+                <input type="text" id="ziel" name="ziel">
+                <button type="submit">Lernziel setzen</button>
+            </form>
+            <button id="delete-sliders">Alle löschen</button>
+        </section>
+        <section id="fortschritt">
+            <h2>Fortschritt überwachen</h2>
+            <div id="sliders-container"></div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Lernfortschritts-Tracker</p>
+        <p>Sami Topic</p>
+    </footer>
+</body>
+<script src="script.js"></script>
+</html>

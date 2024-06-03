@@ -48,3 +48,23 @@ footer {
     text-align: center;
     padding: 5px;
 }
+
+/* das ist jetzt für den slider */
+
+#sliders-container {
+    margin-top: 20px;
+}
+
+.slider-wrapper {
+    margin-bottom: 20px;
+}
+
+.slider-wrapper label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.slider-wrapper input[type="range"] {
+    width: 100%;
+}
+
